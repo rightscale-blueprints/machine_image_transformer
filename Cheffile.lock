@@ -1,0 +1,95 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.1.16)
+
+GIT
+  remote: https://github.com/coderanger/chef-collectd_plugins
+  ref: master
+  sha: d8e264da9ad982dc75978e48c14a9323db553378
+  specs:
+    collectd_plugins (1.0.0)
+      collectd (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/chef-collectd
+  ref: master
+  sha: 5d951bbe4e046c0cc4b175e9785ffa784794e130
+  specs:
+    collectd (1.0.0)
+      apache2 (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/mib
+  ref: master
+  sha: e8b0da7027591e123b953bc5fcccab8c46a9e252
+  specs:
+    mib (0.0.1)
+
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/resolver
+  ref: master
+  sha: 53223b58f4e7dcc11daf8c7eb24d198057b32dd1
+  specs:
+    resolver (0.8.2)
+
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/rightscale
+  ref: master
+  sha: 53223b58f4e7dcc11daf8c7eb24d198057b32dd1
+  specs:
+    rightscale (0.0.1)
+      collectd (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/system
+  ref: master
+  sha: 53223b58f4e7dcc11daf8c7eb24d198057b32dd1
+  specs:
+    system (0.0.1)
+      cron (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/postfix
+  ref: master
+  sha: 6729a86466a27983fc52807f6edddd88a70cf41c
+  specs:
+    postfix (1.2.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/cron
+  ref: master
+  sha: 5ffc7c358a696cc3ce99d9ec7b94b54575813d8f
+  specs:
+    cron (1.0.5)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/ntp
+  ref: master
+  sha: d2cf0b1e9a58c2016ed360f38ac08be266313de5
+  specs:
+    ntp (1.2.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/sudo
+  ref: master
+  sha: c73bb8f58d4fa54ac87375ccd9609fa09932d3a3
+  specs:
+    sudo (1.2.0)
+
+DEPENDENCIES
+  collectd (>= 0)
+  collectd_plugins (>= 0)
+  cron (>= 0)
+  mib (>= 0)
+  ntp (>= 0)
+  postfix (>= 0)
+  resolver (>= 0)
+  rightscale (>= 0)
+  sudo (>= 0)
+  system (>= 0)
+

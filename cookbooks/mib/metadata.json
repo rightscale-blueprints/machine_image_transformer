@@ -1,0 +1,35 @@
+{
+  "maintainer": "Chris Fordham",
+  "attributes": {
+  },
+  "conflicting": {
+  },
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "suggestions": {
+  },
+  "recommendations": {
+  },
+  "description": "Installs/Configures mib",
+  "name": "mib",
+  "replacing": {
+  },
+  "providing": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "recipes": {
+    "mib::resize_master_image": "Resizes the master image.",
+    "mib": "Installs/configures Machine Image Builder.",
+    "mib::extract_master_image_from_tarball": "Extracts the specified master image from tarball.",
+    "mib::download_master_image": "Downloads the specified master image (.img.tar.gz).",
+    "mib::apply_image_transform": "Applies an MIB image transfrom from template.",
+    "mib::mount_master_image": "Mounts the master image."
+  },
+  "maintainer_email": "chris@xhost.com.au",
+  "groupings": {
+  },
+  "license": "Apache 2.0",
+  "version": "0.0.1"
+}
