@@ -94,12 +94,12 @@ Already up'd a Machine Image Transformer box?
 	#vagrant suspend                  				# suspend the vm
 	#vagrant halt                     				# power down the vm
 	#vagrant destroy                  				# destroy the vm
-	#vagrant box remove machine_image_transformer  	# remove the box
+	#vagrant box remove mit						  	# remove the box
 
 Add a new box from local or remote (Ubuntu 12.04)
 
-	vagrant box add machine_image_transformer http://files.vagrantup.com/precise64.box
-	#vagrant box add machine_image_transformer ~/Binaries/vagrant/boxes/precise64.box
+	vagrant box add mit http://files.vagrantup.com/precise64.box
+	#vagrant box add mit ~/Binaries/vagrant/boxes/precise64.box
 
 Need debug?
 
